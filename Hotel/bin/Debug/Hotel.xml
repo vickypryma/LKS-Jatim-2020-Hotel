@@ -1,0 +1,471 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Hotel
+</name>
+</assembly>
+<members>
+<member name="T:Hotel.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Hotel.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Hotel.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Hotel.My.Resources.Resources.checkin">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Hotel.My.Resources.Resources.chekout">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Hotel.My.Resources.Resources.item">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Hotel.My.Resources.Resources.people">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Hotel.My.Resources.Resources.reservation">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Hotel.My.Resources.Resources.room">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Hotel.My.Resources.Resources.roomtype">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Hotel.My.Resources.Resources.user">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.CustomerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.FDCheckOutDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.FoodsAndDrinksDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ItemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ItemStatusDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.JobDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ReservationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ReservationCheckoutDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ReservationRequestItemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.RoomDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.RoomTypeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.EmployeeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ViewEmployeeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ViewRoomDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ReservationRoomDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ViewRoomCheckinDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ViewReservationRoomDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ViewFDCheckoutDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.CustomerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.FDCheckOutRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.FoodsAndDrinksRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ItemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ItemStatusRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.JobRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ReservationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ReservationCheckoutRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ReservationRequestItemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.RoomRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.RoomTypeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.EmployeeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ViewEmployeeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ViewRoomRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ReservationRoomRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ViewRoomCheckinRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ViewReservationRoomRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ViewFDCheckoutRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.CustomerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.FDCheckOutRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.FoodsAndDrinksRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ItemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ItemStatusRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.JobRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ReservationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ReservationCheckoutRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ReservationRequestItemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.RoomRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.RoomTypeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.EmployeeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ViewEmployeeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ViewRoomRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ReservationRoomRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ViewRoomCheckinRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ViewReservationRoomRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSet.ViewFDCheckoutRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSetTableAdapters.CustomerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSetTableAdapters.FDCheckOutTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSetTableAdapters.FoodsAndDrinksTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSetTableAdapters.ItemTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSetTableAdapters.ItemStatusTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSetTableAdapters.JobTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSetTableAdapters.ReservationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSetTableAdapters.ReservationCheckoutTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSetTableAdapters.ReservationRequestItemTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSetTableAdapters.RoomTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSetTableAdapters.RoomTypeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSetTableAdapters.EmployeeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSetTableAdapters.ViewEmployeeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSetTableAdapters.ViewRoomTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSetTableAdapters.ReservationRoomTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSetTableAdapters.ViewRoomCheckinTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSetTableAdapters.ViewReservationRoomTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSetTableAdapters.ViewFDCheckoutTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Hotel.DbHotelDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Hotel.DbHotelDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Hotel.DbHotelDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Hotel.DbHotelDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Hotel.DbHotelDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Hotel.DbHotelDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Hotel.DbHotelDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Hotel.DbHotelDataSetTableAdapters.TableAdapterManager.UpdateAll(Hotel.DbHotelDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Hotel.DbHotelDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
